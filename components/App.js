@@ -16,7 +16,7 @@ var App = React.createClass({
 
 	searchForSkill(skill) {
 		var self = this;
-		var url = 'http://api.stackexchange.com/2.2/tags/{tag}/related?site=stackoverflow';
+		var url = 'https://api.stackexchange.com/2.2/tags/{tag}/related?site=stackoverflow';
 
 		var options = {
 			url: url,
