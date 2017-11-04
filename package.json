@@ -1,5 +1,5 @@
 {
-  "name": "first-webapp-react",
+  "name": "relatedskill",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
@@ -12,8 +12,6 @@
     "watch": "watchify -v -d -t [ reactify --es6 ] main.js -o compiled.js",
     "build": "SET NODE_ENV=production browserify -t [ reactify --es6 ] main.js | uglifyjs > compiled.js"
   },
-  "author": "Tutorialzine",
-  "license": "MIT",
   "dependencies": {
     "gh-pages": "^1.0.0",
     "moment": "^2.10.2",
