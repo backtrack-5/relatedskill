@@ -21,6 +21,6 @@ This application uses stackoverflow API to get the related tag info for the give
 2. Add multiple tag 
 3. Enhancements, etc., 
 
-# deno 
+# demo 
 https://sornalingam.github.io/relatedskill/
 
